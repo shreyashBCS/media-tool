@@ -1,0 +1,41 @@
+/* SIDEBAR  hover effect for nav links */
+.nav-hover {
+    display: block;
+    /* Ensure it occupies the full width */
+    padding: 10px 15px;
+    /* Adjust padding for consistent spacing */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.nav-hover:hover {
+    background-color: #016f7a;
+    /* Slightly darker shade of the sidebar */
+    color: #fff;
+    /* Ensure text remains visible */
+    text-decoration: none;
+    /* Remove underline if any */
+}
+
+.nav-hover-wrapper {
+    display: block;
+    width: 100%;
+    /* Ensures the hover covers the full width */
+}
+
+.nav-hover {
+    display: block;
+    /* Full block coverage */
+    padding: 10px 15px;
+    /* Padding adjustment */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.nav-hover:hover {
+    background-color: #016f7a;
+    /* Hover color */
+    color: #fff;
+    /* Text color on hover */
+    text-decoration: none;
+}
